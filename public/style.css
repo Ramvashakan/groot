@@ -1,0 +1,48 @@
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+body{
+    background-color: aliceblue;
+}
+h1{
+    position: relative;
+    text-align: center;
+    margin-top:20px;
+
+}
+
+button{
+    left:50%;
+    margin:20px;
+}
+
+#view{
+  margin-top: 2%;
+}
+#myfile{
+  padding-right: -11%;
+  
+ 
+}
+#upload{
+  margin-left: 1.5%;
+  border-style: hidden;
+}
+
+#view-records{
+
+    position: relative;
+    left:50%;
+    top:20%;
+    transform: translateX(-30%);
+
+}
+
+span{
+    position: relative;
+    font-size:40px !important;
+    left: 20%;
+
+}

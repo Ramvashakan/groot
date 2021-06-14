@@ -1,0 +1,7 @@
+
+POST http://localhost:5000/upload
+Content-Type: application/json
+
+{
+    'data':'ram'
+}

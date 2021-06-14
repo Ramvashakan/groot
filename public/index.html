@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./papaparse.min.js"></script>
+    <script src="./app.js"></script>
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <h1>CSV FILE PROCESSING</h1>
+
+    <div class="card text-center">
+        <div class="card-header">
+            <h6>UPLOAD YOUR FILE</h6>
+        </div>
+        <div class="card-body">
+
+            <input type="file" class="shadow rounded btn btn-primary " accept=".csv" id="myFile">
+
+            <button style="font-size:22px " id="upload" class="shadow rounded " onClick="upload()">Upload <i
+                    class="fa fa-upload"></i></button>
+
+            <div class="card-button">
+                <button class="shadow rounded btn btn-success" id="view" onClick="viewRecords()">View
+                    Records </button><br />
+                <button class="shadow rounded btn btn-danger" id="clear" onClick="clearRecords()">Clear
+                    Records </button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="view-records">
+
+    </div>
+
+
+</body>
+
+</html>
